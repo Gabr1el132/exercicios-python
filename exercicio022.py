@@ -1,0 +1,6 @@
+a1 = str(input('Digite o seu nome inteiro: '))
+print('Todas as letras maiúsculas: {}'.format(a1.upper()))
+print('Todas as letras minúsculas: {}'.format(a1.lower()))
+print('O seu nome inteiro tem {} letras.'.format(len(a1) - a1.count(' ')))
+a1 = a1.split()
+print('E seu primeiro nome tem {} letras.'.format(len(a1[0])))
